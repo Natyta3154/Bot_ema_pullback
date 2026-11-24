@@ -1,0 +1,10 @@
+{
+    "optimized_weights": {
+        "market": 0.0,
+        "structure": 0.2,
+        "momentum": 0.4,
+        "execution": 0.4,
+        "risk": 0.0
+    },
+    "expectancy": 0.46499999999999997
+}

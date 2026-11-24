@@ -1,0 +1,104 @@
+{
+    "total_time_tracked": 982.8128841061261,
+    "details": [
+        {
+            "Function": "bot.backtest.data_loader.DataLoader.fetch_data",
+            "Category": "Data",
+            "Calls": 2,
+            "Total Time (s)": 0.0212,
+            "Avg Time (ms)": 10.6222,
+            "Min Time (ms)": 8.1829,
+            "Max Time (ms)": 13.0616,
+            "Time %": 0.0,
+            "Mem Delta (MB)": 3.0352
+        },
+        {
+            "Function": "bot.backtest.mock_order_manager.MockOrderManager.process_candle",
+            "Category": "Trading Engine",
+            "Calls": 132469,
+            "Total Time (s)": 0.1556,
+            "Avg Time (ms)": 0.0012,
+            "Min Time (ms)": 0.0007,
+            "Max Time (ms)": 0.2801,
+            "Time %": 0.02,
+            "Mem Delta (MB)": 0.0
+        },
+        {
+            "Function": "bot.core.engine.TradingEngine.run_iteration",
+            "Category": "Trading Engine",
+            "Calls": 132469,
+            "Total Time (s)": 271.3076,
+            "Avg Time (ms)": 2.0481,
+            "Min Time (ms)": 0.071,
+            "Max Time (ms)": 36.161,
+            "Time %": 27.61,
+            "Mem Delta (MB)": 3.0859
+        },
+        {
+            "Function": "bot.indicators.price_action.find_pivots",
+            "Category": "Indicators",
+            "Calls": 117345,
+            "Total Time (s)": 200.4328,
+            "Avg Time (ms)": 1.7081,
+            "Min Time (ms)": 1.2429,
+            "Max Time (ms)": 35.4489,
+            "Time %": 20.39,
+            "Mem Delta (MB)": -0.8867
+        },
+        {
+            "Function": "bot.strategies.breakout_strategy.BreakoutStrategy.analyze_market",
+            "Category": "Strategy",
+            "Calls": 117345,
+            "Total Time (s)": 203.8224,
+            "Avg Time (ms)": 1.7369,
+            "Min Time (ms)": 1.2644,
+            "Max Time (ms)": 35.4847,
+            "Time %": 20.74,
+            "Mem Delta (MB)": -0.9102
+        },
+        {
+            "Function": "bot.backtest.metrics.calculate_metrics",
+            "Category": "Metrics",
+            "Calls": 18,
+            "Total Time (s)": 0.0,
+            "Avg Time (ms)": 0.0007,
+            "Min Time (ms)": 0.0006,
+            "Max Time (ms)": 0.001,
+            "Time %": 0.0,
+            "Mem Delta (MB)": 0.0
+        },
+        {
+            "Function": "bot.backtest.optimizer.GridOptimizer.run_optimization",
+            "Category": "Research Lab",
+            "Calls": 1,
+            "Total Time (s)": 193.0855,
+            "Avg Time (ms)": 193085.5214,
+            "Min Time (ms)": 193085.5214,
+            "Max Time (ms)": 193085.5214,
+            "Time %": 19.65,
+            "Mem Delta (MB)": 4.8359
+        },
+        {
+            "Function": "bot.research.walk_forward.WalkForwardAnalyzer.execute_walk_forward",
+            "Category": "Research Lab",
+            "Calls": 1,
+            "Total Time (s)": 22.9752,
+            "Avg Time (ms)": 22975.2096,
+            "Min Time (ms)": 22975.2096,
+            "Max Time (ms)": 22975.2096,
+            "Time %": 2.34,
+            "Mem Delta (MB)": 0.4492
+        },
+        {
+            "Function": "bot.research.stress_tester.StressTester.execute_stress_test",
+            "Category": "Research Lab",
+            "Calls": 1,
+            "Total Time (s)": 91.0125,
+            "Avg Time (ms)": 91012.5218,
+            "Min Time (ms)": 91012.5218,
+            "Max Time (ms)": 91012.5218,
+            "Time %": 9.26,
+            "Mem Delta (MB)": -0.168
+        }
+    ]
+}

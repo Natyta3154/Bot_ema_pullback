@@ -1,0 +1,79 @@
+# ==============================================================================
+# 1. CREDENCIALES Y SECRETOS (CRÍTICO: Nunca subir a Git)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# 2. ESTADO EN VIVO, HISTORIALES DE TRADING Y LOGS
+# ==============================================================================
+logs/
+*.log
+futures_bot_state.json
+trading_log.json
+trading_log_*.json
+live_raw_trades.csv
+live_raw_trades_*.csv
+auditor_history.json
+bot_decisions.json
+reporte_*.txt
+
+# ==============================================================================
+# 3. MODELOS ENTRENADOS DE IA / ML Y DATASETS LOCALES
+# ==============================================================================
+*.pkl
+*.joblib
+*.onnx
+*.h5
+bot/ml/models/
+data/*.csv
+data/*.parquet
+data/cache/
+
+# ==============================================================================
+# 4. BINARIOS COMPILADOS DE METATRADER 5 (MQL5)
+# ==============================================================================
+*.ex5
+*.mq5.bak
+
+# ==============================================================================
+# 5. PYTHON, ENTORNOS VIRTUALES Y CACHÉ
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================================================================
+# 6. SISTEMA OPERATIVO E IDEs
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

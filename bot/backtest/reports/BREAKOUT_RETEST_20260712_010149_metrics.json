@@ -1,0 +1,18 @@
+{
+    "Total Trades": 2,
+    "Win Rate (%)": 50.0,
+    "Profit Factor": 24.0,
+    "Expectancy (USDT)": 0.47,
+    "Avg RR": 24.0,
+    "Avg Win": 0.97,
+    "Avg Loss": 0.04,
+    "Total Return (%)": 0.09,
+    "Max Drawdown (%)": 0.0,
+    "Avg Drawdown (%)": 0.0,
+    "Sharpe Ratio": 0.92,
+    "Sortino Ratio": 0,
+    "Gross Profit": 0.97,
+    "Gross Loss": 0.04,
+    "Final Balance": 1000.85,
+    "strategy": "BREAKOUT_RETEST"
+}

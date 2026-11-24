@@ -1,0 +1,77 @@
+{
+    "run_id": "RUN_20260712_012708_7d64ac83",
+    "experiment_id": "EXP_STANDARD_BACKTEST_BREAKOUT_RETEST_20260712_012708_12441923",
+    "run_type": "montecarlo_test",
+    "timestamp": "2026-07-12T01:27:08.283224",
+    "data": {
+        "parameters": {
+            "num_simulations": 1000,
+            "confidence_level": 0.95,
+            "method": "block_bootstrap",
+            "block_size": 5,
+            "simulate_uncertainty": true,
+            "max_slippage_var": 0.0002,
+            "max_commission_var": 0.0001,
+            "ruin_drawdown_threshold": 0.3
+        },
+        "metrics": {
+            "Risk_of_Ruin": 0.0
+        },
+        "history_summary": {
+            "total_trades": 0,
+            "trades": []
+        },
+        "extra": {
+            "Simulations": 1000,
+            "Method": "block_bootstrap",
+            "Uncertainty_Simulated": true,
+            "Risk_of_Ruin_Prob (%)": 0.0,
+            "Metrics": {
+                "total_return": {
+                    "mean": 0.0009,
+                    "std": 0.0,
+                    "min": 0.0009,
+                    "5%": 0.0009,
+                    "25%": 0.0009,
+                    "median": 0.0009,
+                    "75%": 0.0009,
+                    "95%": 0.0009,
+                    "max": 0.0009
+                },
+                "max_drawdown": {
+                    "mean": 0.0,
+                    "std": 0.0,
+                    "min": 0.0,
+                    "5%": 0.0,
+                    "25%": 0.0,
+                    "median": 0.0,
+                    "75%": 0.0,
+                    "95%": 0.0,
+                    "max": 0.0
+                },
+                "profit_factor": {
+                    "mean": 23.9966,
+                    "std": 0.0021,
+                    "min": 23.9905,
+                    "5%": 23.9931,
+                    "25%": 23.9952,
+                    "median": 23.9967,
+                    "75%": 23.9981,
+                    "95%": 24.0001,
+                    "max": 24.0025
+                },
+                "sharpe_ratio": {
+                    "mean": 1.3012,
+                    "std": 0.0,
+                    "min": 1.3011,
+                    "5%": 1.3012,
+                    "25%": 1.3012,
+                    "median": 1.3012,
+                    "75%": 1.3012,
+                    "95%": 1.3012,
+                    "max": 1.3012
+                }
+            }
+        }
+    }
+}

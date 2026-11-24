@@ -1,0 +1,336 @@
+{
+    "EXP_WFA_BREAKOUT_RETEST_20260705_161041_4dbc99f0": {
+        "created_at": "2026-07-05T16:10:41.106510",
+        "metadata": {
+            "name": "WFA_BREAKOUT_RETEST",
+            "strategy": "BREAKOUT_RETEST",
+            "description": "Walk Forward: TR=30d VAL=15d TE=15d",
+            "environment": "BACKTEST",
+            "backtest_params": {
+                "start_date": "2026-04-01",
+                "end_date": "2026-07-05",
+                "initial_balance": 1000.0,
+                "commission_pct": 0.0004,
+                "slippage_pct": 0.0005
+            },
+            "global_strategy_params": {
+                "macro_tf": "1h",
+                "entry_tf": "15m",
+                "pivot_lookback": 5,
+                "vol_multiplier": 1.5,
+                "vol_sma_period": 20,
+                "sl_buffer_pct": 0.001,
+                "tolerance_zone_pct": 0.001,
+                "atr_period": 14,
+                "atr_min_volatility": 0.001,
+                "atr_max_volatility": 0.03,
+                "take_profits": [
+                    {
+                        "pct": 0.5,
+                        "rr": 1.5
+                    },
+                    {
+                        "pct": 0.5,
+                        "rr": 3.0
+                    }
+                ],
+                "breakeven_on_tp1": true,
+                "trailing_stop": false,
+                "use_ml": false
+            }
+        },
+        "tags": [
+            "walk_forward",
+            "robustness",
+            "breakout_retest"
+        ],
+        "runs": []
+    },
+    "EXP_STRESS_BREAKOUT_RETEST_20260705_161104_41357b38": {
+        "created_at": "2026-07-05T16:11:04.666255",
+        "metadata": {
+            "name": "STRESS_BREAKOUT_RETEST",
+            "strategy": "BREAKOUT_RETEST",
+            "description": "Stress Testing con condiciones adversas progresivas",
+            "environment": "BACKTEST",
+            "backtest_params": {
+                "start_date": "2026-04-01",
+                "end_date": "2026-07-05",
+                "initial_balance": 1000.0,
+                "commission_pct": 0.0004,
+                "slippage_pct": 0.0005
+            },
+            "global_strategy_params": {
+                "macro_tf": "1h",
+                "entry_tf": "15m",
+                "pivot_lookback": 5,
+                "vol_multiplier": 1.5,
+                "vol_sma_period": 20,
+                "sl_buffer_pct": 0.001,
+                "tolerance_zone_pct": 0.001,
+                "atr_period": 14,
+                "atr_min_volatility": 0.001,
+                "atr_max_volatility": 0.03,
+                "take_profits": [
+                    {
+                        "pct": 0.5,
+                        "rr": 1.5
+                    },
+                    {
+                        "pct": 0.5,
+                        "rr": 3.0
+                    }
+                ],
+                "breakeven_on_tp1": true,
+                "trailing_stop": false,
+                "use_ml": false
+            }
+        },
+        "tags": [
+            "stress",
+            "robustness",
+            "breakout_retest"
+        ],
+        "runs": []
+    },
+    "EXP_WFA_BREAKOUT_RETEST_20260705_161211_4ec21f64": {
+        "created_at": "2026-07-05T16:12:11.845427",
+        "metadata": {
+            "name": "WFA_BREAKOUT_RETEST",
+            "strategy": "BREAKOUT_RETEST",
+            "description": "Walk Forward: TR=30d VAL=15d TE=15d",
+            "environment": "BACKTEST",
+            "backtest_params": {
+                "start_date": "2026-04-01",
+                "end_date": "2026-07-05",
+                "initial_balance": 1000.0,
+                "commission_pct": 0.0004,
+                "slippage_pct": 0.0005
+            },
+            "global_strategy_params": {
+                "macro_tf": "1h",
+                "entry_tf": "15m",
+                "pivot_lookback": 5,
+                "vol_multiplier": 1.5,
+                "vol_sma_period": 20,
+                "sl_buffer_pct": 0.001,
+                "tolerance_zone_pct": 0.001,
+                "atr_period": 14,
+                "atr_min_volatility": 0.001,
+                "atr_max_volatility": 0.03,
+                "take_profits": [
+                    {
+                        "pct": 0.5,
+                        "rr": 1.5
+                    },
+                    {
+                        "pct": 0.5,
+                        "rr": 3.0
+                    }
+                ],
+                "breakeven_on_tp1": true,
+                "trailing_stop": false,
+                "use_ml": false
+            }
+        },
+        "tags": [
+            "walk_forward",
+            "robustness",
+            "breakout_retest"
+        ],
+        "runs": []
+    },
+    "EXP_STRESS_BREAKOUT_RETEST_20260705_161234_bd186ac3": {
+        "created_at": "2026-07-05T16:12:34.820475",
+        "metadata": {
+            "name": "STRESS_BREAKOUT_RETEST",
+            "strategy": "BREAKOUT_RETEST",
+            "description": "Stress Testing con condiciones adversas progresivas",
+            "environment": "BACKTEST",
+            "backtest_params": {
+                "start_date": "2026-04-01",
+                "end_date": "2026-07-05",
+                "initial_balance": 1000.0,
+                "commission_pct": 0.0004,
+                "slippage_pct": 0.0005
+            },
+            "global_strategy_params": {
+                "macro_tf": "1h",
+                "entry_tf": "15m",
+                "pivot_lookback": 5,
+                "vol_multiplier": 1.5,
+                "vol_sma_period": 20,
+                "sl_buffer_pct": 0.001,
+                "tolerance_zone_pct": 0.001,
+                "atr_period": 14,
+                "atr_min_volatility": 0.001,
+                "atr_max_volatility": 0.03,
+                "take_profits": [
+                    {
+                        "pct": 0.5,
+                        "rr": 1.5
+                    },
+                    {
+                        "pct": 0.5,
+                        "rr": 3.0
+                    }
+                ],
+                "breakeven_on_tp1": true,
+                "trailing_stop": false,
+                "use_ml": false
+            }
+        },
+        "tags": [
+            "stress",
+            "robustness",
+            "breakout_retest"
+        ],
+        "runs": []
+    },
+    "EXP_STANDARD_BACKTEST_BREAKOUT_RETEST_20260712_010149_dc35f6eb": {
+        "created_at": "2026-07-12T01:01:49.338747",
+        "metadata": {
+            "name": "Standard_Backtest_BREAKOUT_RETEST",
+            "strategy": "BREAKOUT_RETEST",
+            "description": "Backtest inicial manual",
+            "environment": "BACKTEST",
+            "backtest_params": {
+                "start_date": "2026-06-01",
+                "end_date": "2026-07-05",
+                "initial_balance": 1000.0,
+                "commission_pct": 0.0004,
+                "slippage_pct": 0.0005
+            },
+            "global_strategy_params": {
+                "macro_tf": "1h",
+                "entry_tf": "15m",
+                "pivot_lookback": 5,
+                "vol_multiplier": 1.5,
+                "vol_sma_period": 20,
+                "sl_buffer_pct": 0.001,
+                "tolerance_zone_pct": 0.001,
+                "atr_period": 14,
+                "atr_min_volatility": 0.001,
+                "atr_max_volatility": 0.03,
+                "take_profits": [
+                    {
+                        "pct": 0.5,
+                        "rr": 1.5
+                    },
+                    {
+                        "pct": 0.5,
+                        "rr": 3.0
+                    }
+                ],
+                "breakeven_on_tp1": true,
+                "trailing_stop": false,
+                "use_ml": false
+            }
+        },
+        "tags": [
+            "base",
+            "breakout_retest"
+        ],
+        "runs": [
+            {
+                "run_id": "RUN_20260712_010149_de414e28",
+                "type": "single_backtest",
+                "timestamp": "2026-07-12T01:01:49.341259",
+                "summary_metrics": {
+                    "Total Trades": 2,
+                    "Win Rate (%)": 50.0,
+                    "Profit Factor": 24.0,
+                    "Expectancy (USDT)": 0.47,
+                    "Avg RR": 24.0,
+                    "Avg Win": 0.97,
+                    "Avg Loss": 0.04,
+                    "Total Return (%)": 0.09,
+                    "Max Drawdown (%)": 0.0,
+                    "Avg Drawdown (%)": 0.0,
+                    "Sharpe Ratio": 0.92,
+                    "Sortino Ratio": 0,
+                    "Gross Profit": 0.97,
+                    "Gross Loss": 0.04,
+                    "Final Balance": 1000.85
+                }
+            }
+        ]
+    },
+    "EXP_STANDARD_BACKTEST_BREAKOUT_RETEST_20260712_012708_12441923": {
+        "created_at": "2026-07-12T01:27:08.217163",
+        "metadata": {
+            "name": "Standard_Backtest_BREAKOUT_RETEST",
+            "strategy": "BREAKOUT_RETEST",
+            "description": "Backtest inicial manual",
+            "environment": "BACKTEST",
+            "backtest_params": {
+                "start_date": "2026-06-01",
+                "end_date": "2026-07-05",
+                "initial_balance": 1000.0,
+                "commission_pct": 0.0004,
+                "slippage_pct": 0.0005
+            },
+            "global_strategy_params": {
+                "macro_tf": "1h",
+                "entry_tf": "15m",
+                "pivot_lookback": 5,
+                "vol_multiplier": 1.5,
+                "vol_sma_period": 20,
+                "sl_buffer_pct": 0.001,
+                "tolerance_zone_pct": 0.001,
+                "atr_period": 14,
+                "atr_min_volatility": 0.001,
+                "atr_max_volatility": 0.03,
+                "take_profits": [
+                    {
+                        "pct": 0.5,
+                        "rr": 1.5
+                    },
+                    {
+                        "pct": 0.5,
+                        "rr": 3.0
+                    }
+                ],
+                "breakeven_on_tp1": true,
+                "trailing_stop": false,
+                "use_ml": false
+            }
+        },
+        "tags": [
+            "base",
+            "breakout_retest"
+        ],
+        "runs": [
+            {
+                "run_id": "RUN_20260712_012708_3bbd8bb8",
+                "type": "single_backtest",
+                "timestamp": "2026-07-12T01:27:08.220277",
+                "summary_metrics": {
+                    "Total Trades": 2,
+                    "Win Rate (%)": 50.0,
+                    "Profit Factor": 24.0,
+                    "Expectancy (USDT)": 0.47,
+                    "Avg RR": 24.0,
+                    "Avg Win": 0.97,
+                    "Avg Loss": 0.04,
+                    "Total Return (%)": 0.09,
+                    "Max Drawdown (%)": 0.0,
+                    "Avg Drawdown (%)": 0.0,
+                    "Sharpe Ratio": 0.92,
+                    "Sortino Ratio": 0,
+                    "Gross Profit": 0.97,
+                    "Gross Loss": 0.04,
+                    "Final Balance": 1000.85
+                }
+            },
+            {
+                "run_id": "RUN_20260712_012708_7d64ac83",
+                "type": "montecarlo_test",
+                "timestamp": "2026-07-12T01:27:08.283224",
+                "summary_metrics": {
+                    "Risk_of_Ruin": 0.0
+                }
+            }
+        ]
+    }
+}

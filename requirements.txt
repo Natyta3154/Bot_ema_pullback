@@ -1,0 +1,12 @@
+ccxt
+pandas
+pandas-ta
+xgboost
+scikit-learn
+joblib
+python-dotenv
+optuna
+shap
+matplotlib
+seaborn
+MetaTrader5

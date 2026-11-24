@@ -1,0 +1,91 @@
+{
+    "run_id": "RUN_20260712_012708_3bbd8bb8",
+    "experiment_id": "EXP_STANDARD_BACKTEST_BREAKOUT_RETEST_20260712_012708_12441923",
+    "run_type": "single_backtest",
+    "timestamp": "2026-07-12T01:27:08.220277",
+    "data": {
+        "parameters": {
+            "macro_tf": "1h",
+            "entry_tf": "15m",
+            "pivot_lookback": 5,
+            "vol_multiplier": 1.5,
+            "vol_sma_period": 20,
+            "sl_buffer_pct": 0.001,
+            "tolerance_zone_pct": 0.001,
+            "atr_period": 14,
+            "atr_min_volatility": 0.001,
+            "atr_max_volatility": 0.03,
+            "take_profits": [
+                {
+                    "pct": 0.5,
+                    "rr": 1.5
+                },
+                {
+                    "pct": 0.5,
+                    "rr": 3.0
+                }
+            ],
+            "breakeven_on_tp1": true,
+            "trailing_stop": false,
+            "use_ml": false
+        },
+        "metrics": {
+            "Total Trades": 2,
+            "Win Rate (%)": 50.0,
+            "Profit Factor": 24.0,
+            "Expectancy (USDT)": 0.47,
+            "Avg RR": 24.0,
+            "Avg Win": 0.97,
+            "Avg Loss": 0.04,
+            "Total Return (%)": 0.09,
+            "Max Drawdown (%)": 0.0,
+            "Avg Drawdown (%)": 0.0,
+            "Sharpe Ratio": 0.92,
+            "Sortino Ratio": 0,
+            "Gross Profit": 0.97,
+            "Gross Loss": 0.04,
+            "Final Balance": 1000.85
+        },
+        "history_summary": {
+            "total_trades": 3,
+            "trades": [
+                {
+                    "order_id": "sim_order_1",
+                    "timestamp": "2026-06-28 23:45:00",
+                    "side": "sell",
+                    "type": "limit",
+                    "amount": 0.0034,
+                    "price": 59723.60326,
+                    "fee": 0.0812241004336,
+                    "reduceOnly": false,
+                    "pnl": 0.0,
+                    "balance": 999.9187758995664
+                },
+                {
+                    "order_id": "sim_order_3",
+                    "timestamp": "2026-06-29 00:30:00",
+                    "side": "buy",
+                    "type": "limit",
+                    "amount": 0.0017,
+                    "price": 59127.22962414188,
+                    "fee": 0.040206516144416476,
+                    "reduceOnly": true,
+                    "pnl": 1.0138351809588086,
+                    "balance": 1000.8924045643809
+                },
+                {
+                    "order_id": "sim_order_6",
+                    "timestamp": "2026-06-29 00:45:00",
+                    "side": "buy",
+                    "type": "stop",
+                    "amount": 0.0017,
+                    "price": 59723.57338326,
+                    "fee": 0.040612029900616804,
+                    "reduceOnly": true,
+                    "pnl": 5.0790458003029924e-05,
+                    "balance": 1000.8518433249382
+                }
+            ]
+        }
+    }
+}

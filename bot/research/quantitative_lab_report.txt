@@ -1,0 +1,40 @@
+# 🔬 Reporte de Auditoría: EMA_PULLBACK_TREND
+
+## 📊 1. Relación Señales vs Trades Ejecutados
+Pipeline auditado y aprobado. Trades registrados en CSV no superan a las señales teóricas, y conservan sus features inyectadas correctamente.
+
+| Configuración | Señales Detectadas | Trades Ejecutados |
+| --- | --- | --- |
+| Base (ATR, TP 1:1) | 290 | 113 |
+| ATR, TP 1.5:1 | 290 | 104 |
+| ATR, TP 2:1 | 290 | 99 |
+| SL Swing, TP 1:1 | 290 | 43 |
+
+## 🛑 2. Embudo de Señales (Cascada de Rechazos)
+- **Velas Totales Evaluadas (Trigger):** 6217
+- **Rechazo Macro (No Trend):** 1696
+- **No hay Pullback:** 2225
+- **Descartadas por Patrón de Vela Incorrecto:** 1046
+- **Descartadas por Cuerpo Pequeño (Body Ratio):** 544
+- **Descartadas por Cierre Invalido vs EMA:** 80
+- **Descartadas por Momentum (RSI Invalido):** 16
+- **Señales Finales Validadas (OK):** 290
+
+## ⏱️ 3. Métricas de Ejecución Avanzadas (Leídas del CSV Base)
+| Métrica | Promedio |
+| --- | --- |
+| Distancia a EMA30 (ATR) | 0.8728 |
+| Body Ratio Medio | 0.7493 |
+| Pendiente EMA30 Media | 19.1218 |
+| Pullback Medio al Swing (ATR) | 2.5786 |
+| Duración Promedio (Mins) | 93.1858 |
+| MAE Medio (%) | -0.0041 |
+| MFE Medio (%) | 0.0040 |
+| RSI Entrada Medio | 49.1438 |
+
+## 🌍 4. Sesiones de Trading (Leídas del CSV Base)
+| Sesión | Trades | Win Rate % | PnL Medio (USDT) |
+| --- | --- | --- | --- |
+| Asia (00-08h UTC) | 32 | 59.4% | -0.2875 |
+| Londres (08-16h UTC) | 46 | 58.7% | -0.4856 |
+| Nueva York (16-24h UTC) | 35 | 42.9% | -1.5081 |
